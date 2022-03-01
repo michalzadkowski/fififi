@@ -3,7 +3,7 @@
         <!--Logo etc-->
         <div class="flex items-center">
             <a href="/" class="text-indigo-500 font-bold text-lg">
-                Logo</a>
+                Fififi</a>
         </div>
 
         <!--Toggle button (hidden on large screens)-->
@@ -15,19 +15,26 @@
         </button>
 
         <!--Menu-->
-        <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto text-center " :class="{ 'block shadow-3xl': isOpen, 'hidden': !isOpen }" x-show.transition="true">
+        <div class="dropdown inline-block relative w-full flex-grow lg:flex lg:items-center lg:w-auto text-center " :class="{ 'block shadow-3xl': isOpen, 'hidden': !isOpen }" x-show.transition="true">
+            {% set navPages = collections.all | eleventyNavigation %}
+            {% macro renderNavListItem(entry) -%}
+            <li{% if entry.url == page.url %} class="my-active-class nav__item mr-3"{% endif %} class="nav__item">
+                {% if entry.url %}
+                <a href="{{ entry.url | url }}" class="text-ml inline-block text-gray-500 no-underline hover:text-indigo-500 py-2 px-4">{{ entry.title }}</a>
+                {% else %}
+                <span class="text-ml inline-block text-gray-500 no-underline hover:text-indigo-500 py-2 px-4 cursor-default">{{ entry.title }}</span>
+                {% endif %}
+                {%- if entry.children.length -%}
+                    <ul class="dropdown-menu lg:absolute lg:hidden ">
+                        {%- for child in entry.children %}{{ renderNavListItem(child) }}{% endfor -%}
+                    </ul>
+                {%- endif -%}
+            </li>
+            {%- endmacro %}
 
-            {% if navigation.items %}
-
-                <ul class="pt-6 lg:pt-0 list-reset lg:flex justify-end flex-1 items-center">
-                    {% for item in navigation.items %}
-                        <li class="nav__item mr-3">
-                            <a @click="isOpen = false" class="text-ml inline-block text-gray-500 no-underline hover:text-indigo-500 py-2 px-4" href="{{ item.url }}">{{ item.text }}</a>
-                        </li>
-                    {% endfor %}
-                </ul>
-
-            {% endif %}
+            <ul class="pt-6 lg:pt-0 list-reset lg:flex justify-end flex-1 items-center">
+                {%- for entry in navPages %}{{ renderNavListItem(entry) }}{%- endfor -%}
+            </ul>
         </div>
     </nav>
 </div>
