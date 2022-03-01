@@ -12,8 +12,9 @@ local_backend: true
 # publish_mode: editorial_workflow
 collections:
   - label: "Aktualności"
+    label_singular: "Wiadomość"
     name: "aktualnosci"
-    folder: "src/news/posts"
+    folder: "src/aktualnosci"
     create: true
     editor:
       preview: false
@@ -23,12 +24,6 @@ collections:
       - { label: "Author", name: "author", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - widget: select
-        label: "tags"
-        name: "tags"
-        multiple: true
-        create: true
-        options: ["Tags", "created", "from", "config.yml"]
   - label: "Projekty"
     name: "projekty"
     folder: "src/projekty"
