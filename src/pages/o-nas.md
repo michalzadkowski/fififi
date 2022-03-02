@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /fundacja/statut/index.html
-title: Statut
+permalink: /fundacja/o-nas/index.html
+title: O nas
 intro: |-
   sdfg
 

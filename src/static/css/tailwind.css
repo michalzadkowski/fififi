@@ -22,3 +22,7 @@ body pre[class*="language-"] {
 .dropdown:hover .dropdown-menu {
   display: block;
 }
+
+pre {
+  height: 100vh;
+}

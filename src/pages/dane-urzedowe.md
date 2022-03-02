@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /fundacja/statut/index.html
-title: Statut
+permalink: /fundacja/dane-urzedowe/index.html
+title: Dane urzędowe
 intro: |-
   sdfg
 
