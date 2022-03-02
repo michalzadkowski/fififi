@@ -15,7 +15,7 @@ collections:
   - label: "Aktualności"
     label_singular: "Wiadomość"
     name: "aktualnosci"
-    folder: "src/aktualnosci"
+    folder: "src/aktualnosci/posts"
     create: true
     editor:
       preview: false
@@ -43,4 +43,13 @@ collections:
       - { label: "Lider", name: "leader", widget: "string" }
       - { label: "Data rozpoczęcia", name: "start_date", widget: "datetime" }
       - { label: "Data zakończenia", name: "end_date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Body", name: "body", widget: "markdown" }        
+  - label: "Strony"
+    name: "pages"
+    files:
+      - label: "Statut"
+        name: "statut"
+        file: "src/pages/statut.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - { label: "Body", name: "body", widget: "markdown" }        
