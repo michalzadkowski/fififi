@@ -36,7 +36,7 @@ title: Kontakt
                         Wyślij
                     </button>
                 </div>
-                <div class="flex items-center justify-center w-full">
+                <div class="flex items-center justify-center w-full mt-8">
                     <div data-netlify-recaptcha="true"></div>
                 </div>
             </form>
