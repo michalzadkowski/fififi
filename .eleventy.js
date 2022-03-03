@@ -4,6 +4,8 @@ const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const htmlmin = require("html-minifier");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const util = require("util");
+const md = require("markdown-it");
+const mdAttrs = require("markdown-it-attrs");
 
 module.exports = function (eleventyConfig) {
   // Disable automatic use of your .gitignore
@@ -25,7 +27,10 @@ module.exports = function (eleventyConfig) {
   // Syntax Highlighting for Code blocks
   eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
-  
+
+
+  const mdLib = md().use(mdAttrs);
+  eleventyConfig.setLibrary("md", mdLib);
 
   // Copy Static Files to /_Site
   eleventyConfig.addPassthroughCopy({

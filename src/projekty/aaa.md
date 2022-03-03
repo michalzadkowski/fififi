@@ -1,5 +1,5 @@
 ---
-tags: aktualne
+tags: zrealizowane
 title: Dziecko w centrum
 description: Asd
 leader: asdf

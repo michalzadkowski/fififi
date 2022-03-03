@@ -22,9 +22,6 @@ eleventyNavigation:
             <p class="text-base leading-6 text-gray-500 mb-3">
                 <time>
                     {{ post.date | readableDate }}
-                    by
-                    <a>{{ post.data.author }}</a>
-
                 </time>
             </p>
             {% if post.data.description %}
@@ -35,7 +32,7 @@ eleventyNavigation:
 
             <p>
                 <a href="{{ post.url | url }}" class="text-indigo-500 font-bold text-lg">
-                    Read more →
+                    Czytaj dalej →
                 </a>
             </p>
 
