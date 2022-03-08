@@ -1,11 +1,7 @@
 ---
 layout: page
 permalink: /fundacja/statut/index.html
-title: Statut fundacji • Fundacja InTHINKnity
-intro: |-
-  sdfg
-
-  bibibi
+title: Statut fundacji InTHINKnity
 ---
 ## Rozdział I
 **Postanowienia ogólne**
