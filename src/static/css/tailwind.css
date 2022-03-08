@@ -26,3 +26,14 @@ body pre[class*="language-"] {
 pre {
   height: 100vh;
 }
+
+ol[type="a"] {
+  counter-reset: list;
+}
+ol[type="a"] > li {
+  list-style: none;
+}
+ol[type="a"] > li:before {
+  content: counter(list, lower-alpha) ") ";
+  counter-increment: list;
+}

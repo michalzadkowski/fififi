@@ -6,6 +6,7 @@ const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const util = require("util");
 const md = require("markdown-it");
 const mdAttrs = require("markdown-it-attrs");
+const markdownItFancyListPlugin = require("markdown-it-fancy-lists").markdownItFancyListPlugin;
 
 module.exports = function (eleventyConfig) {
   // Disable automatic use of your .gitignore
@@ -28,8 +29,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
-
-  const mdLib = md().use(mdAttrs);
+  const mdLib = md().use(mdAttrs).use(markdownItFancyListPlugin);
   eleventyConfig.setLibrary("md", mdLib);
 
   // Copy Static Files to /_Site

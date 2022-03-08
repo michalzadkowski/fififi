@@ -29,6 +29,7 @@
     "autoprefixer": "^10.4.2",
     "flatted": "^3.2.5",
     "markdown-it-attrs": "^4.1.3",
+    "markdown-it-fancy-lists": "^1.1.3",
     "postcss": "^8.4.5"
   }
 }
