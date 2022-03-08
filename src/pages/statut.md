@@ -7,41 +7,9 @@ intro: |-
 
   bibibi
 ---
-<!-- Output copied to clipboard! -->
-
-<!-----
-
-Yay, no errors, warnings, or alerts!
-
-Conversion time: 1.217 seconds.
-
-
-Using this Markdown file:
-
-1. Paste this output into your source file.
-2. See the notes and action items below regarding this conversion run.
-3. Check the rendered output (headings, lists, code blocks, tables) for proper
-   formatting and use a linkchecker before you publish this page.
-
-Conversion notes:
-
-* Docs to Markdown version 1.0β33
-* Mon Mar 07 2022 23:26:57 GMT-0800 (PST)
-* Source doc: STATUT FUNDACJI - Fundacja InTHINKnity
------>
-
-
 **STATUT FUNDACJI**
 
 **FUNDACJA InTHINKnity**
-
- 
-
- 
-
- 
-
- 
 
 **Rozdział I**
 
@@ -173,7 +141,7 @@ Celem Fundacji jest działalność promocyjna, terapeutyczna, edukacyjna i kult
         h)	Udzielanie nieodpłatnego poradnictwa obywatelskiego;
 
 
-        i)  	Upowszechnianie i ochrona praw konsumentów;
+        i)	Upowszechnianie i ochrona praw konsumentów;
 
 
         j) 	Wspomaganie rozwoju wspólnot i społeczności lokalnych;
@@ -182,7 +150,7 @@ Celem Fundacji jest działalność promocyjna, terapeutyczna, edukacyjna i kult
         k)	Propagowanie wszelkich form turystyki i krajoznawstwa;
 
 
-        l)  	Wspieranie dzieci i młodzieży, w tym organizacja wypoczynku dla dzieci i młodzieży;
+        l)	Wspieranie dzieci i młodzieży, w tym organizacja wypoczynku dla dzieci i młodzieży;
 
 
         m)  Przeciwdziałanie uzależnieniom i patologiom społecznym;
@@ -238,10 +206,10 @@ Fundacja realizuje swoje cele poprzez:
         a)	działania zmierzające do wyrównywania szans słabszym grupom społecznym,
 
 
-        b)   organizowanie warsztatów, szkoleń, doradztwa, konferencji, zajęć terapeutycznych i innych form edukacji grupowej i indywidualnej,
+        b)	organizowanie warsztatów, szkoleń, doradztwa, konferencji, zajęć terapeutycznych i innych form edukacji grupowej i indywidualnej,
 
 
-        c)  organizowanie (współorganizowanie) przedsięwzięć typu inkubatory biznesu, lokalne centra biznesu, wspierające drobną, młodą przedsiębiorczość,
+        c)	organizowanie (współorganizowanie) przedsięwzięć typu inkubatory biznesu, lokalne centra biznesu, wspierające drobną, młodą przedsiębiorczość,
 
 
         d)	organizowanie warsztatów i terapii poprzez sztukę,
@@ -250,41 +218,32 @@ Fundacja realizuje swoje cele poprzez:
         e)	działania terapeutyczno – rozwojowe w oparciu o zajęcia sportowe,
 
 
-        f) 	prowadzenie ośrodków i poradni psychologiczno – pedagogicznych,
+        f)	prowadzenie ośrodków i poradni psychologiczno – pedagogicznych,
 
 
         g)	działania zwiększające aktywność społeczną osób niezależnie od wieku,
 
 
-        h) współpracę z osobami fizycznymi, instytucjami państwowymi, organizacjami pozarządowymi i innymi podmiotami w kraju i za granicą,
+        h)	współpracę z osobami fizycznymi, instytucjami państwowymi, organizacjami pozarządowymi i innymi podmiotami w kraju i za granicą,
 
 
-        i) prowadzenie działalności informacyjnej o wszelkich formach działań własnych Fundacji bądź innych podmiotów nakierowanych na osiągnięcie celów Fundacji,
+        i)	prowadzenie działalności informacyjnej o wszelkich formach działań własnych Fundacji bądź innych podmiotów nakierowanych na osiągnięcie celów Fundacji,
 
 
-        j) organizację przedsięwzięć sportowych,
+        j)	organizację przedsięwzięć sportowych,
 
 
-        k) działalność wydawniczą, publikacje i wystąpienia publiczne,
+        k)	działalność wydawniczą, publikacje i wystąpienia publiczne,
 
 
-        l) podejmowanie innych czynności i środków działania związanych z realizacją celów Fundacji.
+        l)	podejmowanie innych czynności i środków działania związanych z realizacją celów Fundacji.
 
 
          
 
-** **
-
-** **
-
-** **
-
 **Rozdział III**
 
 **Majątek i dochody fundacji**
-
-** **
-
  
 
 § 9
