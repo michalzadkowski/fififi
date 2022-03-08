@@ -4,7 +4,7 @@ permalink: /fundacja/statut/index.html
 title: Statut fundacji InTHINKnity
 ---
 ## Rozdział I
-**Postanowienia ogólne**
+**Postanowienia ogólne** {.text-center} 
 
 ### § 1
 1. Fundacja „Fundacja InTHINKnity”, zwana dalej Fundacją, działa na podstawie Ustawy z dnia 6 kwietnia 1984 roku o fundacjach oraz postanowień niniejszego statutu.
@@ -26,7 +26,7 @@ W zakresie niezbędnym dla właściwego realizowania celów, Fundacja może prow
 ### § 6
 Fundacja może ustanawiać odznaki, medale honorowe i przyznawać je wraz z innymi nagrodami i wyróżnieniami, osobom fizycznym i prawnym zasłużonym dla Fundacji oraz dla realizacji celów obranych przez Fundację.
 ## Rozdział II
-**Cele i zasady działania**
+**Cele i zasady działania** {.text-center}
 ### § 7
 Celem Fundacji jest działalność promocyjna, terapeutyczna, edukacyjna i kulturalno-oświatowa, ze szczególnym uwzględnieniem następujących obszarów:
   a) Wspieranie osób wykluczonych lub zagrożonych wykluczeniem społecznym,  w tym osób z orzeczeniem o niepełnosprawności oraz wyrównywanie szans tych osób.
@@ -70,7 +70,7 @@ Fundacja realizuje swoje cele poprzez:
   k) działalność wydawniczą, publikacje i wystąpienia publiczne,
   l) podejmowanie innych czynności i środków działania związanych z realizacją celów Fundacji.
 ## Rozdział III
-**Majątek i dochody fundacji**
+**Majątek i dochody fundacji** {.text-center}
 ### § 9
 Majątek Fundacji stanowi fundusz założycielski w kwocie 2000 zł (dwa tysiące złotych), z czego 1000 zł (jeden tysiąc złotych) jest przeznaczone na działalność gospodarczą, oraz inne mienie nabyte przez Fundację w toku działania.
 ### § 10
@@ -90,7 +90,7 @@ Dochody fundacji mogą pochodzić z:
 4. Fundacja może prowadzić działalność gospodarczą na ogólnych zasadach, określonych w odrębnych przepisach.
 5. Fundacja prowadzi działalność gospodarczą wyłącznie w rozmiarach służących realizacji celów statutowych.
 ## Rozdział IV
-**Władze Fundacji**
+**Władze Fundacji** {.text-center}
 ### § 12
 1. Władzami Fundacji jest Zarząd Fundacji, zwany dalej Zarząd.
 2. Zarząd liczy minimalnie dwóch, zaś maksymalnie pięciu członków Zarządu, w tym Prezesa Zarządu, powołanych przez Fundatorów na czteroletnią kadencję.
@@ -116,7 +116,7 @@ Dochody fundacji mogą pochodzić z:
 ### § 15
 1. Oświadczenia woli w imieniu Fundacji w sprawach majątkowych składają Prezes lub Wiceprezes.
 ## Rozdział V
-**Postanowienia końcowe**
+**Postanowienia końcowe** {.text-center}
 ### § 16
 1. Zmian w Statucie Fundacji dokonuje Zarząd bezwzględną większością głosów, przy obecności co najmniej połowy składu Zarządu plus jeden. W przypadku równego rozłożenia głosów decyduje głos Prezesa.
 2. Zmiany Statutu nie mogą dotyczyć celów określonych w akcie założycielskim.
