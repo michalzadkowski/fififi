@@ -9,7 +9,7 @@ h1 {
 }
 
 h2 {
-  @apply text-3xl font-bold mb-3 text-center;
+  @apply text-3xl font-bold mt-3 mb-3 text-center;
 }
 h3 {
   @apply text-2xl font-bold mt-3 mb-3 text-center;
