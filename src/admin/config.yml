@@ -45,21 +45,31 @@ collections:
       - { label: "Partnerzy", name: "partners", widget: "text" }
       - { label: "Opis", name: "description", widget: "markdown", buttons: [bold, italic, link, quote, bulleted-list, numbered-list], modes: [rich_text], editor_components: [] }
       - { label: "Źródło finansowania", name: "funding_source", widget: "markdown", buttons: [bold, italic, link, quote, bulleted-list, numbered-list], modes: [rich_text], editor_components: [] }
-      - { label: "Data rozpoczęcia", name: "start_date", widget: "datetime" }
-      - { label: "Data zakończenia", name: "end_date", widget: "datetime" }
+      - { label: "Data rozpoczęcia", name: "start_date", widget: "date", format: "DD-MM-YYYY" }
+      - { label: "Data zakończenia", name: "end_date", widget: "date", format: "DD-MM-YYYY" }
       - { label: "Cel projektu", name: "goal", widget: "markdown", buttons: [bold, italic, link, quote, bulleted-list, numbered-list], modes: [rich_text], editor_components: [] }
       - { label: "Grupa docelowa", name: "target_group", widget: "markdown", buttons: [bold, italic, link, quote, bulleted-list, numbered-list], modes: [rich_text], editor_components: [] }
       - { label: "Formy wsparcia", name: "forms_of_support", widget: "markdown", buttons: [bold, italic, link, quote, bulleted-list, numbered-list], modes: [rich_text], editor_components: [] }
       - { label: "Wartość projektu", name: "project_value", widget: "string" }
       - { label: "Wartość dofinansowania", name: "funding_value", widget: "string" }
+      - label: "Logotypy partnerów"
+        name: "partner_logos"
+        widget: "list"
+        summary: '{{fields.logo}}'
+        field: {label: Logo, name: logo, widget: image, choose_url: false}
       - label: "Dokumenty"
         name: "documents"
-        widget: "file"
-        choose_url: false
-        media_folder: "/static/files"
-        media_library:
-          config:
-            multiple: true
+        widget: "list"
+        summary: '{{fields.document}}'
+        field: 
+          label: "Dokument"
+          name: "document"
+          widget: file
+          choose_url: false
+          media_folder: "/static/files"
+          media_library:
+            config:
+              multiple: true
 
   - label: "Strony"
     name: "pages"

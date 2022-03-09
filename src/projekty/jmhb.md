@@ -21,4 +21,3 @@ partner_logos:
 documents:
   - /static/files/dplf.pdf
 ---
-**nb     vc**

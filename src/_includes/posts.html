@@ -8,6 +8,63 @@ prism: true
         <h1 class="font-bold text-5xl">{{title}}</h1>
     </div>
     <article class="prose lg:prose-xl my-4 mx-auto">
-        {{ content | safe }}</article>
+        <div class="project-info flex flex-col md:flex-row">
+            <div class="project-label basis-1/3 pr-3 md:text-right">
+                Numer projektu: 
+            </div>
+            <div class="project-data basis-2/3">
+                {{ number }}
+            </div>
+        </div>
+        <div class="project-info flex flex-col md:flex-row">
+            <div class="project-label basis-1/3 pr-3 md:text-right">
+                Lider projektu:
+            </div>
+            <div class="project-data basis-2/3">
+                {{ leader }}
+            </div>
+        </div>
+        <div class="project-info flex flex-col md:flex-row">
+            <div class="project-label basis-1/3 pr-3 md:text-right">
+                Partnerzy projektu:
+            </div>
+            <div class="project-data basis-2/3">
+                {{ partners }}
+            </div>
+        </div>
+        <div class="project-info flex flex-col md:flex-row">
+            <div class="project-label basis-1/3 pr-3 md:text-right">
+                Opis projektu:
+            </div>
+            <div class="project-data basis-2/3">
+                {{ description }}
+            </div>
+        </div>
+        <div class="project-info flex flex-col md:flex-row">
+            <div class="project-label basis-1/3 pr-3 md:text-right">
+                Źródło finansowania:
+            </div>
+            <div class="project-data basis-2/3">
+                {{ funding_source }}
+            </div>
+        </div>
+        <div class="project-info flex flex-col md:flex-row">
+            <div class="project-label basis-1/3 pr-3 md:text-right">
+                Data rozpoczęcia projektu:
+            </div>
+            <div class="project-data basis-2/3">
+                {{ start_date }}
+            </div>
+        </div>
+        <div class="project-info flex flex-col md:flex-row">
+            <div class="project-label basis-1/3 pr-3 md:text-right">
+                Data zakończenia projektu:
+            </div>
+            <div class="project-data basis-2/3">
+                {{ end_date | shortDate }}
+            </div>
+        </div>
+        
+    </article>
 
 </div>
