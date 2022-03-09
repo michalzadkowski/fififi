@@ -1,7 +1,7 @@
 ---
 tags: aktualne
-title: Tytrtyt
-number: "1234"
+title: Projekt
+number: ""
 leader: qw4rtr\123
 partners: |-
   defgb
