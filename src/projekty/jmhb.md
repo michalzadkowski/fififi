@@ -1,9 +1,24 @@
 ---
 tags: aktualne
 title: Dziecko po lewej
-description: nmbv
+number: "2345"
 leader: vbn
-start_date: 2022-03-02T08:36:19.745Z
-end_date: 2022-03-02T08:36:19.757Z
+partners: wertg
+description: nmbv
+funding_source: "**qwerfg**"
+start_date: 03-03-2022
+end_date: 17-03-2022
+goal: |-
+  * qwerfg
+
+  1. werf
+target_group: qwerfg
+forms_of_support: qwerfg
+project_value: hgfd
+funding_value: fgb
+partner_logos:
+  - /static/img/logos.png
+documents:
+  - /static/files/dplf.pdf
 ---
 **nb     vc**
