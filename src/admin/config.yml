@@ -7,7 +7,10 @@ backend:
   # repo: michalzadkowski/fififi
 media_folder: "src/static/img"
 public_folder: "/static/img"
-
+editor:
+  preview: false
+slug:
+  clean_accents: true
 # Please run "npx netlify-cms-proxy-server" for local backend
 local_backend: true
 # publish_mode: editorial_workflow
@@ -17,8 +20,6 @@ collections:
     name: "aktualnosci"
     folder: "src/aktualnosci/posts"
     create: true
-    editor:
-      preview: false
     fields:
       - { label: "Tytuł", name: "title", widget: "string" }
       - { label: "Zajawka", name: "description", widget: "string" }
@@ -30,8 +31,6 @@ collections:
     folder: "src/projekty"
     create: true
     sortable_fields: ['tags', 'leader', 'end_date']
-    editor:
-      preview: true
     fields:
       - widget: select
         label: "Aktualny?"
@@ -82,28 +81,22 @@ collections:
         file: "src/pages/statut.md"
         fields:
           - { label: Tytuł, name: title, widget: string}
-          - { label: "Treść", name: "body", widget: "markdown" }        
+          - { label: "Treść", name: "body", widget: "markdown", modes: [rich_text], editor_components: [] }        
       - label: "O nas"
         name: "o-nas"
         file: "src/pages/o-nas.md"
         fields:
           - {label: Tytuł, name: title, widget: string}
-          - { label: "Treść", name: "body", widget: "markdown" }        
+          - { label: "Treść", name: "body", widget: "markdown", modes: [rich_text], editor_components: [] }        
       - label: "Dane urzędowe"
         name: "dane-urzedowe"
         file: "src/pages/dane-urzedowe.md"
         fields:
           - {label: Tytuł, name: title, widget: string}
-          - { label: "Treść", name: "body", widget: "markdown" }        
-      # - label: "Kontakt"
-      #   name: "kontakt"
-      #   file: "src/pages/kontakt.md"
-      #   fields:
-      #     - {label: Title, name: title, widget: string}
-      #     - { label: "Body", name: "body", widget: "markdown" }        
+          - { label: "Treść", name: "body", widget: "markdown", modes: [raw], editor_components: [] }        
       - label: "Dziękujemy"
         name: "dziekujemy"
         file: "src/pages/dziekujemy.md"
         fields:
           - {label: Tytuł, name: title, widget: string}
-          - { label: "Treść", name: "body", widget: "markdown" }        
+          - { label: "Treść", name: "body", widget: "markdown", modes: [rich_text], editor_components: [] }        
