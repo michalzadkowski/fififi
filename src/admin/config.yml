@@ -61,15 +61,18 @@ collections:
         name: "documents"
         widget: "list"
         summary: '{{fields.document}}'
-        field: 
-          label: "Dokument"
-          name: "document"
-          widget: file
-          choose_url: false
-          media_folder: "/static/files"
-          media_library:
-            config:
-              multiple: true
+        fields: 
+          - label: "Dokument"
+            name: "url"
+            widget: file
+            choose_url: false
+            media_folder: "/static/files"
+            media_library:
+              config:
+                multiple: true
+          - label: "Nazwa dokumentu"
+            name: "name"
+            widget: "string"
 
   - label: "Strony"
     name: "pages"
