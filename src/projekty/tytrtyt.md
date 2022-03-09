@@ -34,7 +34,5 @@ partner_logos:
   - /static/img/active-citizens-fund-logo.svg
   - /static/img/inkubator-wlacznik.png
   - /static/img/europe_funded_pl.svg
-documents:
-  - url: /static/files/dplf.pdf
-    name: Jakiś dok
+documents: []
 ---
