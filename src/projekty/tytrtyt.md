@@ -31,6 +31,9 @@ funding_value: "234"
 partner_logos:
   - /static/img/mia_logo.jpg
   - /static/img/aofr.svg
+  - /static/img/active-citizens-fund-logo.svg
+  - /static/img/inkubator-wlacznik.png
+  - /static/img/europe_funded_pl.svg
 documents:
   - url: /static/files/dplf.pdf
     name: Jakiś dok
