@@ -28,6 +28,9 @@ forms_of_support: |-
   qwdefb
 project_value: "1234"
 funding_value: "234"
+partner_logos:
+  - /static/img/mia_logo.jpg
+  - /static/img/aofr.svg
 documents:
   - url: /static/files/dplf.pdf
     name: Jakiś dok
