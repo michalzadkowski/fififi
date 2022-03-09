@@ -39,25 +39,27 @@ collections:
         create: false
         options: ["aktualne", "zrealizowane"]
       - { label: "Tytuł", name: "title", widget: "string" }
-      - { label: "Numer projektu", name: "number", widget: "string" }
-      - { label: "Lider projektu", name: "leader", widget: "string" }
-      - { label: "Partnerzy", name: "partners", widget: "text" }
-      - { label: "Opis", name: "description", widget: "markdown", buttons: [bold, italic, link, quote, bulleted-list, numbered-list], modes: [rich_text], editor_components: [] }
-      - { label: "Źródło finansowania", name: "funding_source", widget: "markdown", buttons: [bold, italic, link, quote, bulleted-list, numbered-list], modes: [rich_text], editor_components: [] }
-      - { label: "Data rozpoczęcia", name: "start_date", widget: "date", format: "DD-MM-YYYY" }
-      - { label: "Data zakończenia", name: "end_date", widget: "date", format: "DD-MM-YYYY" }
-      - { label: "Cel projektu", name: "goal", widget: "markdown", buttons: [bold, italic, link, quote, bulleted-list, numbered-list], modes: [rich_text], editor_components: [] }
-      - { label: "Grupa docelowa", name: "target_group", widget: "markdown", buttons: [bold, italic, link, quote, bulleted-list, numbered-list], modes: [rich_text], editor_components: [] }
-      - { label: "Formy wsparcia", name: "forms_of_support", widget: "markdown", buttons: [bold, italic, link, quote, bulleted-list, numbered-list], modes: [rich_text], editor_components: [] }
-      - { label: "Wartość projektu", name: "project_value", widget: "string" }
-      - { label: "Wartość dofinansowania", name: "funding_value", widget: "string" }
+      - { label: "Numer projektu", name: "number", widget: "string", required: false }
+      - { label: "Lider projektu", name: "leader", widget: "string", required: false }
+      - { label: "Partnerzy", name: "partners", widget: "text", required: false }
+      - { label: "Opis", name: "description", widget: "markdown", buttons: [bold, italic, link, quote, bulleted-list, numbered-list], modes: [rich_text], editor_components: [], required: false }
+      - { label: "Źródło finansowania", name: "funding_source", widget: "markdown", buttons: [bold, italic, link, quote, bulleted-list, numbered-list], modes: [rich_text], editor_components: [], required: false }
+      - { label: "Data rozpoczęcia", name: "start_date", widget: "date", format: "DD-MM-YYYY", required: false }
+      - { label: "Data zakończenia", name: "end_date", widget: "date", format: "DD-MM-YYYY", required: false }
+      - { label: "Cel projektu", name: "goal", widget: "markdown", buttons: [bold, italic, link, quote, bulleted-list, numbered-list], modes: [rich_text], editor_components: [], required: false }
+      - { label: "Grupa docelowa", name: "target_group", widget: "markdown", buttons: [bold, italic, link, quote, bulleted-list, numbered-list], modes: [rich_text], editor_components: [], required: false }
+      - { label: "Formy wsparcia", name: "forms_of_support", widget: "markdown", buttons: [bold, italic, link, quote, bulleted-list, numbered-list], modes: [rich_text], editor_components: [], required: false }
+      - { label: "Wartość projektu", name: "project_value", widget: "string", required: false }
+      - { label: "Wartość dofinansowania", name: "funding_value", widget: "string", required: false }
       - label: "Logotypy partnerów"
         name: "partner_logos"
+        required: false
         widget: "list"
         summary: '{{fields.logo}}'
         field: {label: Logo, name: logo, widget: image, choose_url: false}
       - label: "Dokumenty"
         name: "documents"
+        required: false
         widget: "list"
         summary: '{{fields.document}}'
         fields: 
