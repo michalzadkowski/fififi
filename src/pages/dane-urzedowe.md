@@ -18,3 +18,5 @@ title: Dane urzędowe
 **Adres siedziby:** Stefana Batorego 23/7, 81-365 Gdynia, Polska
 
 **Data rejestracji:** 11 maja 2021 r.
+
+**Numer konta:** 56 1140 2004 0000 3102 8139 6985
