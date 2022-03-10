@@ -149,8 +149,8 @@ prism: true
         {% if partner_logos %}
         <hr/>
         <div class="logos not-prose m-0 p-0 flex flex-wrap justify-center content-center">
-                {% for logo in partner_logos %}
-                    <img class="m-2" src="{{ logo }}" width="200" height="200">
+                {% for logotype in partner_logos %}
+                    <img class="m-2" src="{{ logotype.logo }}" width="200" height="200">
                 {% endfor %}
             </ul>
         </div>
