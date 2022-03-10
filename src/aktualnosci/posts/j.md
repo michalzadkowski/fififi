@@ -1,7 +1,11 @@
 ---
-title: News 2
-description: pigh
+title: News 3
+description: "Tekst wprowadzający. "
 author: phi'
-date: 2022-03-04T08:30:47.207Z
+date: 2022-02-28T08:30:47.207Z
 ---
-0uiohigh;
+Pełna treść newsa.
+
+Z możliwością **formatowania** i dodawania obrazków.
+
+![Logo](/static/img/inthinknity.svg "Logo Fundacji")
