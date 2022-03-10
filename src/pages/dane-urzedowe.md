@@ -3,7 +3,7 @@ layout: page
 permalink: /fundacja/dane-urzedowe/index.html
 title: Dane urzędowe
 ---
-![](/static/img/inthinknity.svg){.max-w-md .mb-6}
+![](/static/img/inthinknity.svg){.max-w-md .mb-6 mx-auto}
 
 
 
