@@ -5,7 +5,7 @@ backend:
   ### enable below lines for github integration ###
   # name: github
   # repo: michalzadkowski/fififi
-media_folder: "src/static/img"
+media_folder: "/src/static/img"
 public_folder: "/static/img"
 editor:
   preview: false
@@ -56,7 +56,13 @@ collections:
         required: false
         widget: "list"
         summary: '{{fields.logo}}'
-        field: {label: Logo, name: logo, widget: image, choose_url: false, media_folder: "src/static/logos", public_folder: "/static/logos" }
+        fields:
+          - label: Logo
+            name: logo
+            widget: image
+            choose_url: false
+            media_folder: "/src/static/logos"
+            public_folder: "/static/logos"
       - label: "Dokumenty"
         name: "documents"
         required: false
@@ -67,7 +73,7 @@ collections:
             name: "url"
             widget: file
             choose_url: false
-            media_folder: "src/static/files"
+            media_folder: "/src/static/files"
             public_folder: "/static/files" 
             media_library:
               config:
