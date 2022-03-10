@@ -15,8 +15,8 @@ description: >-
 funding_source: Projekt współfinansowany ze środków Urzędu Miasta Gdyni w ramach
   konkursu *Organizacja czasu wolnego Gdynia 55+ - sport, turystyka, rekreacja
   2022.*
-start_date: 10-03-2022
-end_date: 10-03-2022
+start_date: 21-02-2022
+end_date: 30-06-2022
 goal: >-
   Głównym celem projektu jest podniesienie kompetencji kulturowych przez 24
   gdyńskich seniorów (18 kobiet, 6 mężczyzn, w tym 5 osób posiadających
