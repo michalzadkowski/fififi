@@ -20,7 +20,7 @@ module.exports = function (eleventyConfig) {
   // human readable date
   eleventyConfig.addFilter("readableDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
-      "DD-MM-YYYY"
+      "dd LLL yyyy"
     );
   });
   eleventyConfig.addFilter("dump", (obj) => {

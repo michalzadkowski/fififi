@@ -45,8 +45,8 @@ collections:
       - { label: "Partnerzy", name: "partners", widget: "text", required: false }
       - { label: "Opis", name: "description", widget: "markdown", buttons: [bold, italic, link, quote, bulleted-list, numbered-list], modes: [rich_text], editor_components: [], required: false }
       - { label: "Źródło finansowania", name: "funding_source", widget: "markdown", buttons: [bold, italic, link, quote, bulleted-list, numbered-list], modes: [rich_text], editor_components: [], required: false }
-      - { label: "Data rozpoczęcia", name: "start_date", widget: "date", required: false }
-      - { label: "Data zakończenia", name: "end_date", widget: "date", required: false }
+      - { label: "Data rozpoczęcia", name: "start_date", widget: "date", format: "DD-MM-YYYY", required: false }
+      - { label: "Data zakończenia", name: "end_date", widget: "date", format: "DD-MM-YYYY", required: false }
       - { label: "Cel projektu", name: "goal", widget: "markdown", buttons: [bold, italic, link, quote, bulleted-list, numbered-list], modes: [rich_text], editor_components: [], required: false }
       - { label: "Grupa docelowa", name: "target_group", widget: "markdown", buttons: [bold, italic, link, quote, bulleted-list, numbered-list], modes: [rich_text], editor_components: [], required: false }
       - { label: "Formy wsparcia", name: "forms_of_support", widget: "markdown", buttons: [bold, italic, link, quote, bulleted-list, numbered-list], modes: [rich_text], editor_components: [], required: false }
