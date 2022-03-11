@@ -49,8 +49,8 @@ forms_of_support: >-
 
   * organizacja gry miejskiej SENIORZY NA START dla każdej z dwóch grup.
 project_value: 5 880,00
-funding_value: "2 800,00\t"
+funding_value: "2 800,00"
 partner_logos:
-  - logo: /static/logos/zrzut-ekranu-2022-03-10-o-15.02.14.png
+  - logo: /static/logos/umgdynia.svg
   - logo: /static/logos/inthinknity.svg
 ---

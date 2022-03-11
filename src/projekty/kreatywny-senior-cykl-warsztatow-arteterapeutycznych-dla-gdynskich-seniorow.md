@@ -11,7 +11,7 @@ description: >-
   Seniorzy, którzy wezmą udział w projekcie to osoby o niskimi statusie materialnym, który uniemożliwia im regularny udział w życiu kulturowym. Uczęszczanie na warsztaty stworzy okazję do obcowania z kulturą, podniesienia kompetencji kulturowych i społecznych. 
 
 
-  Seniorzy nabędą również kompetencje miękkie przez co większy się ich wiara we własne możliwości oraz poczucie przynależności do lokalnej społeczności. Warsztaty zwrócą uwagę na sytuację seniorów w nowej pandemicznej i postpandemicznej rzeczywistości - większość aktywności jest zawieszona, a seniorzy pogłębiają wykluczenie i bierność. Wnioskodawca wierzy, że istnieje sposób organizacji bezpiecznych i efektywnych warsztatów dla osób w każdym wieku.
+  Seniorzy nabędą również kompetencje miękkie przez co zwiększy się ich wiara we własne możliwości oraz poczucie przynależności do lokalnej społeczności. Warsztaty zwrócą uwagę na sytuację seniorów w nowej pandemicznej i postpandemicznej rzeczywistości - większość aktywności jest zawieszona, a seniorzy pogłębiają wykluczenie i bierność. Wnioskodawca wierzy, że istnieje sposób organizacji bezpiecznych i efektywnych warsztatów dla osób w każdym wieku.
 funding_source: Projekt współfinansowany ze środków Urzędu Miasta Gdyni w ramach
   konkursu *Organizacja czasu wolnego Gdynia 55+ - sport, turystyka, rekreacja
   2022.*
@@ -44,6 +44,6 @@ forms_of_support: >-
 project_value: "9 700,00\t"
 funding_value: 3 700,00
 partner_logos:
-  - logo: /static/logos/zrzut-ekranu-2022-03-10-o-15.02.14.png
+  - logo: /static/logos/umgdynia.svg
   - logo: /static/logos/inthinknity.svg
 ---
