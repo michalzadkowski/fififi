@@ -8,6 +8,7 @@ body {
   width: 100vw;
   height: 100%;
   position: relative;
+  padding-top: 64px;
 }
 .wave {
   position: fixed;
