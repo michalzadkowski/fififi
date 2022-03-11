@@ -11,7 +11,7 @@ prism: true
         {% if number %}
             <div class="project-info flex items-top flex-col md:flex-row">
                 <div class="project-label basis-1/3 pr-3 md:text-right">
-                    <p>Numer projektu: </p>
+                    <p><strong>Numer projektu:</strong></p>
                 </div>
             <div class="project-data basis-2/3">
                 <p>{{ number }}</p>
@@ -21,7 +21,7 @@ prism: true
         {% if leader %}
         <div class="project-info flex items-top flex-col md:flex-row">
             <div class="project-label basis-1/3 pr-3 md:text-right">
-                <p>Lider projektu:</p>
+                <p><strong>Lider projektu:</strong></p>
             </div>
             <div class="project-data basis-2/3">
                 <p>{{ leader }}</p>
@@ -31,7 +31,7 @@ prism: true
         {% if partners %}
         <div class="project-info flex items-top flex-col md:flex-row">
             <div class="project-label basis-1/3 pr-3 md:text-right">
-                <p>Partnerzy projektu:</p>
+                <p><strong>Partnerzy projektu:</strong></p>
             </div>
             <div class="project-data basis-2/3">
                 {{ partners | md | safe }}
@@ -41,7 +41,7 @@ prism: true
         {% if description %}
         <div class="project-info flex items-top flex-col md:flex-row">
             <div class="project-label basis-1/3 pr-3 md:text-right">
-                <p>Opis projektu:</p>
+                <p><strong>Opis projektu:</strong></p>
             </div>
             <div class="project-data basis-2/3">
                 {{ description | md | safe }}
@@ -51,7 +51,7 @@ prism: true
         {% if funding_source %}
         <div class="project-info flex items-top flex-col md:flex-row">
             <div class="project-label basis-1/3 pr-3 md:text-right">
-                <p>Źródło finansowania:</p>
+                <p><strong>Źródło finansowania:</strong></p>
             </div>
             <div class="project-data basis-2/3">
                 {{ funding_source | md | safe }}
@@ -61,7 +61,7 @@ prism: true
         {% if start_date %}
         <div class="project-info flex items-top flex-col md:flex-row">
             <div class="project-label basis-1/3 pr-3 md:text-right">
-                <p>Data rozpoczęcia projektu:</p>
+                <p><strong>Data rozpoczęcia projektu:</strong></p>
             </div>
             <div class="project-data basis-2/3">
                 <p>{{ start_date }}</p>
@@ -71,7 +71,7 @@ prism: true
         {% if end_date %}
         <div class="project-info flex items-top flex-col md:flex-row">
             <div class="project-label basis-1/3 pr-3 md:text-right">
-                <p>Data zakończenia projektu:</p>
+                <p><strong>Data zakończenia projektu:</strong></p>
             </div>
             <div class="project-data basis-2/3">
                 <p>{{ end_date }}</p>
@@ -81,7 +81,7 @@ prism: true
         {% if goal %}
         <div class="project-info flex items-top flex-col md:flex-row">
             <div class="project-label basis-1/3 pr-3 md:text-right">
-                <p>Cel projektu:</p>
+                <p><strong>Cel projektu:</strong></p>
             </div>
             <div class="project-data basis-2/3">
                 <p>{{ goal | md |safe }}</p>
@@ -91,7 +91,7 @@ prism: true
         {% if target_group %}
         <div class="project-info flex items-top flex-col md:flex-row">
             <div class="project-label basis-1/3 pr-3 md:text-right">
-                <p>Grupa docelowa projektu:</p>
+                <p><strong>Grupa docelowa projektu:</strong></p>
             </div>
             <div class="project-data basis-2/3">
                 <p>{{ target_group | md |safe }}</p>
@@ -101,7 +101,7 @@ prism: true
         {% if forms_of_support %}
         <div class="project-info flex items-top flex-col md:flex-row">
             <div class="project-label basis-1/3 pr-3 md:text-right">
-                <p>Formy wsparcia:</p>
+                <p><strong>Formy wsparcia:</strong></p>
             </div>
             <div class="project-data basis-2/3">
                 <p>{{ forms_of_support | md |safe }}</p>
@@ -111,7 +111,7 @@ prism: true
         {% if project_value %}
         <div class="project-info flex items-top flex-col md:flex-row">
             <div class="project-label basis-1/3 pr-3 md:text-right">
-                <p>Wartość projektu:</p>
+                <p><strong>Wartość projektu:</strong></p>
             </div>
             <div class="project-data basis-2/3">
                 <p>{{ project_value | md |safe }}</p>
@@ -121,7 +121,7 @@ prism: true
         {% if funding_value %}
         <div class="project-info flex items-top flex-col md:flex-row">
             <div class="project-label basis-1/3 pr-3 md:text-right">
-                <p>Wartość dofinansowania:</p>
+                <p><strong>Wartość dofinansowania:</strong></p>
             </div>
             <div class="project-data basis-2/3">
                 <p>{{ funding_value | md |safe }}</p>
@@ -131,7 +131,7 @@ prism: true
         {% if documents %}
         <div class="project-info flex items-top flex-col md:flex-row">
             <div class="project-label basis-1/3 pr-3 md:text-right">
-                Dokumenty:
+                <strong>Dokumenty:</strong>
             </div>
             <div class="project-data basis-2/3 align-top not-prose">
             <ul class="list-none">
