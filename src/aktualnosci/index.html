@@ -21,7 +21,7 @@ eleventyNavigation:
             </h2>
             <p class="text-base leading-6 text-gray-500 mb-3">
                 <time>
-                    {{ post.date | readableDate }}
+                    {{ post.date | safe }}
                 </time>
             </p>
             {% if post.data.description %}
