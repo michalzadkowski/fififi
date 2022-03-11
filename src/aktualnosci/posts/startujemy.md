@@ -1,7 +1,7 @@
 ---
 title: Startujemy!
 description: Rozpoczynamy rekrutację do nowych projektów senioralnych
-date: 2022-04-10T22:00:00.000Z
+date: 2022-03-10T23:00:00.000Z
 ---
 Fundacja Inthinknity rozpoczyna rekrutację do 2 projektów senioralnych - KREATYWNY SENIOR oraz Senioralna Siłownia Umysłu.
 
