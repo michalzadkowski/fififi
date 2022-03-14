@@ -19,13 +19,16 @@ module.exports = function (eleventyConfig) {
 
   // human readable date
   eleventyConfig.addFilter("readableDate", (dateObj) => {
-    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
-      "dd LLL yyyy"
+    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toLocaleString(
+      DateTime.DATE_FULL,
+      { locale: "pl-pl" }
     );
   });
+  
   eleventyConfig.addFilter("dump", (obj) => {
     return util.inspect(obj);
   });
+
 
   eleventyConfig.addFilter("md", function (content = "") {
     return md({ html: true }).render(content);
