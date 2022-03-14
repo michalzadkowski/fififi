@@ -13,7 +13,8 @@ editor:
 slug:
   clean_accents: true
 # Please run "npx netlify-cms-proxy-server" for local backend
-local_backend: true
+local_backend:
+  url: http://localhost:8081/api/v1
 # publish_mode: editorial_workflow
 collections:
   - label: "Aktualności"
