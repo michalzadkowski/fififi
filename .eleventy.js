@@ -1,6 +1,5 @@
 const yaml = require("js-yaml");
 const { DateTime } = require("luxon");
-const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const htmlmin = require("html-minifier");
 const util = require("util");
 const md = require("markdown-it");
@@ -33,9 +32,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("md", function (content = "") {
     return md({ html: true }).render(content);
   });
-
-  // Syntax Highlighting for Code blocks
-  eleventyConfig.addPlugin(syntaxHighlight);
 
   const mdLib = md().use(mdAttrs).use(markdownItFancyListPlugin);
   eleventyConfig.setLibrary("md", mdLib);
