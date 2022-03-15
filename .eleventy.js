@@ -1,12 +1,9 @@
 const yaml = require("js-yaml");
-const { DateTime } = require("luxon");
 const htmlmin = require("html-minifier");
 const util = require("util");
 const md = require("markdown-it");
 const mdAttrs = require("markdown-it-attrs");
 const markdownItFancyListPlugin = require("markdown-it-fancy-lists").markdownItFancyListPlugin;
-
-
 
 
 module.exports = function (eleventyConfig) {
@@ -18,10 +15,7 @@ module.exports = function (eleventyConfig) {
 
   // human readable date
   eleventyConfig.addFilter("readableDate", (dateObj) => {
-    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toLocaleString(
-      DateTime.DATE_FULL,
-      { locale: "pl-pl" }
-    );
+    return Intl.DateTimeFormat('pl-PL', { dateStyle: 'long' }).format(dateObj);
   });
   
   eleventyConfig.addFilter("dump", (obj) => {
