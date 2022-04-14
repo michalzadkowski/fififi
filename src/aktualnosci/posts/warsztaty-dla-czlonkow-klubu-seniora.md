@@ -5,7 +5,7 @@ date: 2022-04-14T18:04:34.509Z
 ---
 W sobotę 9 kwietnia w siedzibie Fundacji odbyły się warsztaty międzypokoleniowe dla Seniorów z Klubu Seniora Kreatywny Senior.
 
-Panie wraz z wnuczkami stworzyły piękne wianki, które już w najbliższych dniach będą ozdobą na wielkanocny stół.
+Panie wraz z wnuczkami stworzyły piękne wianki, które już w najbliższych dniach będą ozdobą na wielkanocnym stole.
 
 Wydarzenie jest współfinansowane ze środków Urzędu Miasta Gdynia w ramach konkursu "Organizacja czasu wolnego Gdynia 55+ - sport, turystyka, rekreacja 2022".
 
